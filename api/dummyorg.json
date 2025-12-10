@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Sofia",
+        "designation": "Software Engineer",
+        "team": "A",
+        "id": 1    
+    },
+    {
+        "name": "John",
+        "designation": "Software Engineer",
+        "team": "B",
+        "id": 2,
+        "manager_id": 1
+    },
+    {
+        "name": "Maria",
+        "designation": "Software Engineer",
+        "team": "A",
+        "manager_id": 1
+    },
+    {
+        "name": "Alice",
+        "designation": "Software Engineer",
+        "team": "B",
+        "manager_id": 1
+    },
+    {
+        "name": "Bob",
+        "designation": "Software Engineer",
+        "team": "A",
+        "manager_id": 2
+    }
+]
