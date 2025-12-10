@@ -15,6 +15,7 @@ API runs on http://localhost:8000
 ### UI (React + Vite)
 ```bash
 cd ui/my-app
+add .env with VITE_API_URL=http://localhost:8000
 npm install
 npm run dev
 ```
