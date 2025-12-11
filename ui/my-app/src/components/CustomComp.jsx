@@ -17,10 +17,10 @@ export function Employee(props) {
             fontSize: 12, 
             visibility : props.data.hidden ? "hidden" : "visible", 
             minWidth: "120px",
-            maxHeight: "25px"
+            maxHeight: "50px"
         }}>
             <div style={{ color: "white", fontSize: "12px" }}>{props.data.label}</div>
-            <div>{props.title}</div>
+            <div>{props.data.designation}</div>
             <Handle type="source" position={Position.Bottom} />
             <CustomHandle connectionCount={1} type="target" position={Position.Top} />
         </div>
